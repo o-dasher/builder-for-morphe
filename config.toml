@@ -73,41 +73,7 @@ patcher-args = "-e 'Theme' -Oamoled=true"
 [Instagram.patches]
 "github:crimera/piko" = []
 
-[Google-Photos]
-enabled = false
-brand = "rushi"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-changelog-keywords = ["Photos"]
-
-[Google-Photos.patches]
-"github:rushiranpise/morphe-patches" = []
-
-[Messenger]
-enabled = false
-brand = "rushi"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-technologies-llc/messenger/"
-arch = "both"
-changelog-keywords = ["Messenger"]
-
 [Messenger.patches]
-"github:rushiranpise/morphe-patches" = []
-
-[Amazon-Shopping]
-enabled = false
-brand = "rushi"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-shopping/"
-changelog-keywords = ["Amazon"]
-
-[Amazon-Shopping.patches]
-"github:rushiranpise/morphe-patches" = []
-
-[Block-Blast]
-enabled = false
-brand = "rushi"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/hungrystudio/block-blast-puzzle-games/"
-changelog-keywords = ["Block Blast"]
-
-[Block-Blast.patches]
 "github:rushiranpise/morphe-patches" = []
 
 [Telegram]
@@ -117,15 +83,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-ve
 changelog-keywords = ["Telegram"]
 
 [Telegram.patches]
-"github:rushiranpise/morphe-patches" = []
-
-[Adobe-Acrobat] 
-enabled = false
-brand = "rushi"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/adobe-acrobat/"
-changelog-keywords = ["Acrobat"]
-
-[Adobe-Acrobat.patches]
 "github:rushiranpise/morphe-patches" = []
 
 [Proton-VPN]
@@ -146,43 +103,6 @@ changelog-keywords = ["Duolingo"]
 [Duolingo.patches]
 "github:hoo-dles/morphe-patches" = []
 
-[Prime-Video]
-enabled = false
-brand = "hoo-dles"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-prime-video/"
-arch = "arm64-v8a"
-changelog-keywords = ["Prime Video"]
-
-[Prime-Video.patches]
-"github:hoo-dles/morphe-patches" = []
-
-[WPS-Office]
-enabled = false
-brand = "hoo-dles"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/wps-software-pte-ltd/wps-office-pdf/"
-changelog-keywords = ["WPS"]
-
-[WPS-Office.patches]
-"github:hoo-dles/morphe-patches" = []
-
-[CamScanner]
-enabled = false
-brand = "hoo-dles"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/intsig-information-co-ltd/camscanner-phone-pdf-creator/"
-changelog-keywords = ["CamScanner"]
-
-[CamScanner.patches]
-"github:hoo-dles/morphe-patches" = []
-
-[InShot]
-enabled = false
-brand = "hooman"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/inshot-inc/inshot-video-editor-photo-editor/"
-changelog-keywords = ["InShot"]
-
-[InShot.patches]
-"github:arandomhooman/hoomans-morphe-patches" = []
-
 [Twitch]
 enabled = false
 brand = "hooman"
@@ -197,35 +117,6 @@ enabled = false
 brand = "paresh"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/true-software-scandinavia-ab/truecaller-caller-id-block/"
 changelog-keywords = ["Truecaller"]
-
-[Truecaller.patches]
-"gitlab:Paresh-Maheshwari/paresh-patches" = []
-
-[JioHotstar]
-enabled = false
-brand = "paresh"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/jiostar-india-private-limited/jiohotstar-4/"
-changelog-keywords = ["JioHotstar"]
-
-[JioHotstar.patches]
-"gitlab:Paresh-Maheshwari/paresh-patches" = []
-
-[Facebook]
-enabled = false
-brand = "de-vanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
-arch = "both"
-
-[Facebook.patches]
-"github:RookieEnough/De-Vanced" = []
-
-[Viber]
-enabled = false
-brand = "de-vanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/viber-media-s-a-r-l/viber/"
-
-[Viber.patches]
-"github:RookieEnough/De-Vanced" = []
 
 [TikTok]
 enabled = false
