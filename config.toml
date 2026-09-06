@@ -73,9 +73,6 @@ patcher-args = "-e 'Theme' -Oamoled=true"
 [Instagram.patches]
 "github:crimera/piko" = []
 
-[Messenger.patches]
-"github:rushiranpise/morphe-patches" = []
-
 [Telegram]
 enabled = false
 brand = "rushi"
